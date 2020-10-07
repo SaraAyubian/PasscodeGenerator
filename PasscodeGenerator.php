@@ -1,9 +1,5 @@
- /* PasscodeGenerator.php Project
- 
-    Created by Sara Ayubian
+/* PasscodeGenerator.php Created by Sara Ayubian */
 
- run project by typing "php PasscodeGenerator.php MD5.Input.csv MD5.Ouput.csv"
-  */
 
 <?php
 $prefix       = "ENC";
@@ -36,3 +32,4 @@ function serial_to_md5(string $str, string $prefix = "")
   // return str_pad($md5, 4, "0", STR_PAD_LEFT);
 }
 
+//run project by typing "php PasscodeGenerator.php MD5.Input.csv MD5.Ouput.csv"
