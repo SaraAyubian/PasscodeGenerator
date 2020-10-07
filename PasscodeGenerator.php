@@ -1,6 +1,6 @@
 /* PasscodeGenerator.php Created by Sara Ayubian */
-
-
+// PasscodeGenerator Version 1
+//variables
 <?php
 $prefix       = "ENC";
 $file         = $argv[1];
@@ -25,7 +25,7 @@ while (($data = fgetcsv($fin)) !== FALSE)
 }
 
 
-
+//md5 algorithm
 function serial_to_md5(string $str, string $prefix = "")
 {
   return $md5 = str_replace(['a','b','c','d','e','f'], [0,1,2,3,4,5], substr(md5($prefix . $str), 0, 4));
