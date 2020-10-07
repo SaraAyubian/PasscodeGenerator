@@ -1,14 +1,10 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/SaraAyubian/PasscodeGenerator">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+
 
   <h3 align="center">Passcode Generator</h3>
 
   <p align="center">
   PasscodeGenerator is a PHP code that generate Passcode using MD5 Algorithm.
+  <br />
   PasscodeGenerator shall have an MD5.Input.csv inside the PasscodeGenerator folder.
     <br />
     <a href="https://github.com/SaraAyubian/PasscodeGenerator"><strong>Explore the docs »</strong></a>
