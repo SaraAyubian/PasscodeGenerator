@@ -4,5 +4,6 @@ PasscodeGenerator shall have an MD5.Input.csv inside the PasscodeGenerator folde
 
 
 ## RUN:
-Run the code on terminal by the following command:
+Run the code on by the following command on Terminal:
+
 php PasscodeGenerator.php MD5.Input.csv MD5.Ouput.csv
