@@ -1,6 +1,6 @@
-/* PasscodeGenerator.php Created by Sara Ayubian */
-// PasscodeGenerator Version 1
-//variables
+/* PasscodeGenerator.php (Version 1.0) Created by Sara Ayubian */
+
+
 <?php
 $prefix       = "ENC";
 $file         = $argv[1];
